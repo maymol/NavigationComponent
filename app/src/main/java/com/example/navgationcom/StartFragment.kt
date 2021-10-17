@@ -24,7 +24,7 @@ class StartFragment : Fragment() {
         val fragmentBBtn : Button = root.findViewById(R.id.fragment_b_btn)
 
         fragmentABtn.setOnClickListener { button ->
-            val action = StartFragmentDirections.actionStartFragmentToFragmentA("Hello")
+            val action = StartFragmentDirections.actionStartFragmentToFragmentA("Hellooo")
             button.findNavController().navigate(action)
         }
 
